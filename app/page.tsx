@@ -222,16 +222,16 @@ export default function IndexPage() {
                
           
 
-          <div className="pt-2 mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
+          <div className="pt-8 sm:pt-8 lg:pt-5 mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
                   <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-3xl font-bold">
                     Frequently asked questions
                   </h2>
-                  <p className="text-muted-foreground max-w-[85%] pb-10 leading-normal sm:text-lg sm:leading-7">
+                  <p className="text-muted-foreground max-w-[85%] pb-1 sm:pb-1 lg:pb-10 leading-normal sm:text-lg sm:leading-7">
                     Get detailed answers to common inquiries.
                   </p>
                 
                 </div>
-          <div className="container  my-20 flex max-w-[58rem] flex-col items-center justify-between gap-4 py-10 md:h-24 md:flex-row md:py-0">
+          <div className="container my-5 sm:my-5 lg:my-20 flex max-w-[58rem] flex-col items-center justify-between gap-4 py-10 md:h-24 md:flex-row md:py-0">
                 {/* <Page /> */}<FaqPage />
                   </div>
         </div>
