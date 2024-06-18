@@ -82,7 +82,7 @@ const MarqueeDemo = () => {
   return (
     <div className="relative mt-10 flex size-full flex-col items-center justify-center overflow-hidden rounded-lg border pb-20 md:shadow-xl">
       <div className="mx-auto flex max-w-full flex-col items-center space-y-4 pt-10 text-center">
-                  <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
+                  <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-3xl font-bold">
                     Don&apos;t take our word for it
                   </h2>
                   <p className="text-muted-foreground max-w-[85%] pb-10 leading-normal sm:text-lg sm:leading-7">

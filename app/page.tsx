@@ -52,14 +52,14 @@ export default function IndexPage() {
               <Announcement />
               <div className="relative flex flex-col gap-4 md:items-center lg:flex-row">
                 <h1 className="relative mx-0 max-w-[43.5rem] text-balance bg-gradient-to-br from-black from-50% to-neutral-200/60 bg-clip-text pt-5 text-left text-5xl font-semibold tracking-tighter text-transparent sm:text-7xl md:mx-auto md:px-4 md:py-2 md:text-center md:text-7xl lg:text-7xl dark:text-white">
-                  UI library for Design Engineers
+                  Templates for Design Engineers
                 </h1>
                 <span className="text-neutral-90 absolute -top-3.5 left-0 z-10 rotate-3 whitespace-nowrap rounded-full bg-neutral-800 px-2.5 py-1 text-[11px] font-semibold uppercase leading-5 tracking-wide text-white md:top-12 md:-rotate-12">
-                  100% open-source
+                  100% high-quality
                 </span>
               </div>
               <p className="max-w-xl text-balance text-left text-base tracking-tight text-black md:text-center md:text-lg dark:font-medium dark:text-white">
-                20+ free and open-source animated components built with{" "}
+                3+ free and animated templates built with{" "}
                 <span className="font-bold text-black dark:text-white">
                   React
                 </span>
@@ -71,7 +71,11 @@ export default function IndexPage() {
                 <span className="font-bold text-black dark:text-white">
                   Tailwind CSS
                 </span>
-                , and{" "}
+                , {" "}
+                <span className="font-bold text-black dark:text-white">
+                  Magic-UI
+                </span>
+                ,{" "}and{" "}
                 <span className="font-bold text-black dark:text-white">
                   Framer Motion
                 </span>
@@ -137,7 +141,7 @@ export default function IndexPage() {
               </div>
 
               <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 pt-20 text-center">
-                <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
+                <h2 className="font-heading font-3xl leading-[1.1] sm:text-3xl md:text-3xl font-bold">
                   Features
                 </h2>
                 <p className="text-muted-foreground max-w-[85%] leading-normal sm:text-lg sm:leading-7">
@@ -195,7 +199,7 @@ export default function IndexPage() {
                 <Features />
 
                 <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 pt-20 text-center">
-                  <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
+                  <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-3xl font-bold">
                     Integrations
                   </h2>
                   <p className="text-muted-foreground max-w-[85%] pb-10 leading-normal sm:text-lg sm:leading-7">
@@ -219,7 +223,7 @@ export default function IndexPage() {
           </div>
 
           <div className="pt-15 mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-                  <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
+                  <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-3xl font-bold">
                     Frequently asked questions
                   </h2>
                   <p className="text-muted-foreground max-w-[85%] pb-10 leading-normal sm:text-lg sm:leading-7">
