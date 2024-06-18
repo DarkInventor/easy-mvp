@@ -125,7 +125,7 @@ export default function PricingPage() {
     },
   ]
   return (
-    <div className="pt-28 pb-20">
+    <div className="pt-28 pb-2 sm:pb-2 lg:pb-20">
       <PricingHeader title="Pricing Plans" subtitle="Choose the plan that's right for you" />
       <PricingSwitch onSwitch={togglePricingPeriod} />
       <section className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-8 mt-8">
