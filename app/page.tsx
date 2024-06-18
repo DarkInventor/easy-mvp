@@ -231,14 +231,14 @@ export default function IndexPage() {
                   </p>
                 
                 </div>
-          <div className="container my-5 sm:my-5 lg:my-20 flex max-w-[58rem] flex-col items-center justify-between gap-4 py-10 md:h-24 md:flex-row md:py-0">
+          <div className="container my-0 sm:my-0 lg:my-20 flex max-w-[58rem] flex-col items-center justify-between gap-4 py-10 md:h-24 md:flex-row md:py-0">
                 {/* <Page /> */}<FaqPage />
                   </div>
         </div>
       </div>
       </div>
       <hr />
-      <div className="container flex flex-col items-center justify-between gap-4 py-10 md:h-24 md:flex-row md:py-0">
+      <div className="container flex flex-col items-center justify-between gap-4  md:h-24 md:flex-row md:py-0">
       
       <SiteFooter />
       </div>
