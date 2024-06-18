@@ -222,7 +222,7 @@ export default function IndexPage() {
                
           </div>
 
-          <div className="pt-15 mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
+          <div className="pt-2 mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
                   <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-3xl font-bold">
                     Frequently asked questions
                   </h2>
