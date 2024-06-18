@@ -77,7 +77,6 @@ module.exports = {
           to: {
             backgroundPosition: "var(--bg-size) 0",
           },
-          
         },
         "border-beam": {
           "100%": {
@@ -94,10 +93,12 @@ module.exports = {
         },
         orbit: {
           "0%": {
-              transform: "rotate(0deg) translateY(calc(var(--radius) * 1px)) rotate(0deg)",
+            transform:
+              "rotate(0deg) translateY(calc(var(--radius) * 1px)) rotate(0deg)",
           },
           "100%": {
-              transform: "rotate(360deg) translateY(calc(var(--radius) * 1px)) rotate(-360deg)",
+            transform:
+              "rotate(360deg) translateY(calc(var(--radius) * 1px)) rotate(-360deg)",
           },
           marquee: {
             from: { transform: "translateX(0)" },
@@ -115,7 +116,15 @@ module.exports = {
             from: { height: "var(--radix-accordion-content-height)" },
             to: { height: "0" },
           },
-      },
+        },
+        "background-shine": {
+          from: {
+            backgroundPosition: "0 0",
+          },
+          to: {
+            backgroundPosition: "-200% 0",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -130,6 +139,7 @@ module.exports = {
         "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "background-shine": "background-shine 2s linear infinite",
       },
     },
   },
