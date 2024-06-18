@@ -220,7 +220,7 @@ export default function IndexPage() {
                 {/* </div> */}
                 <PricingPage />
                
-          </div>
+          
 
           <div className="pt-2 mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
                   <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-3xl font-bold">
@@ -235,6 +235,7 @@ export default function IndexPage() {
                 {/* <Page /> */}<FaqPage />
                   </div>
         </div>
+      </div>
       </div>
       <hr />
       <div className="container flex flex-col items-center justify-between gap-4 py-10 md:h-24 md:flex-row md:py-0">
