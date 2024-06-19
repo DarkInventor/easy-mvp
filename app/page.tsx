@@ -33,6 +33,7 @@ import OrbitingCirclesDemo from "./integrations/page"
 // import  { SiteFooter }  from "../components/site-footer"
 import PricingPage from "./pricing/page"
 import MarqueeDemo from "./testimonials/page"
+import { SiteHeader } from "@/components/site-header"
 
 // Corrected the path for FAQPage import
 
@@ -46,6 +47,7 @@ export default function IndexPage() {
   return (
     // <div className="container relative overflow-hidden">
     <section id="hero">
+      <SiteHeader />
       {/* <div className="relative min-h-screen overflow-hidden py-0 sm:py-0 md:py-0 lg:py-5"> */}
         {/* <div className="z-10 flex flex-col"> */}
           {/* <div > */}

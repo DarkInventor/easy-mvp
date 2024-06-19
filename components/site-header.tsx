@@ -24,16 +24,16 @@ export function SiteHeader() {
               buttonTextColor="#ffffff"
               subscribeStatus={false}
               initialText={
-                <span className="group inline-flex items-center">
+                <a className="group inline-flex items-center" href="/login">
                   Login{" "}
                   <ChevronRightIcon className="ml-1 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
-                </span>
+                </a>
               }
               changeText={
-                <span className="group inline-flex items-center">
+                <a className="group inline-flex items-center" href="/login">
                 Login{" "}
                 <ChevronRightIcon className="ml-1 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
-              </span>
+              </a>
               }
             />
            
