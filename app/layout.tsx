@@ -82,7 +82,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 {children}
              
               {/* </div> */}
-              <SiteFooter className="border-t py-2" />
+              {/* <SiteFooter className="border-t py-2" /> */}
             </div>
             <TailwindIndicator />
           </ThemeProvider>
