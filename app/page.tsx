@@ -49,7 +49,7 @@ export default function IndexPage() {
       {/* <div className="relative min-h-screen overflow-hidden py-0 sm:py-0 md:py-0 lg:py-5"> */}
         {/* <div className="z-10 flex flex-col"> */}
           {/* <div > */}
-            <div className="flex flex-col items-start gap-6 mt-20 text-center md:items-center ">
+            <div className="flex flex-col items-start gap-6 mt-20 px-7 text-center md:items-center">
               <Announcement />
               <div className="relative flex flex-col gap-4 md:items-center lg:flex-row">
                 <h1 className="relative mx-0 max-w-[43.5rem] text-balance bg-gradient-to-br from-black from-50% to-neutral-200/60 bg-clip-text pt-5 text-left text-5xl font-semibold tracking-tighter text-transparent sm:text-7xl md:mx-auto md:px-4 md:py-2 md:text-center md:text-7xl lg:text-7xl dark:text-white">
@@ -230,7 +230,7 @@ export default function IndexPage() {
               </p>
             </div>
             
-            <div className="container my-0 sm:my-0 lg:my-0 md:my-0 flex max-w-[58rem] flex-col items-center justify-between gap-4 py-0">
+            <div className="container my-10 sm:my-0 lg:my-0 md:my-0 flex max-w-[58rem] flex-col items-center justify-between gap-4 py-0">
               <FaqPage />
               {/* <SiteFooter /> */}
             </div>
