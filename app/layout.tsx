@@ -76,12 +76,13 @@ export default function RootLayout({ children }: RootLayoutProps) {
           )}
         >
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <div className="relative flex min-h-screen flex-col">
+            <div className="absolute flex min-h-screen flex-col">
               <SiteHeader />
-              <div className="container flex-1">{children}
+              {/* <div className="container flex-1"> */}
+                {children}
              
-              </div>
-              {/* <SiteFooter className="border-t" /> */}
+              {/* </div> */}
+              <SiteFooter className="border-t py-2" />
             </div>
             <TailwindIndicator />
           </ThemeProvider>

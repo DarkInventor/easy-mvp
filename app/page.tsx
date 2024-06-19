@@ -232,9 +232,9 @@ export default function IndexPage() {
             <div className="container my-0 sm:my-0 lg:my-10 md:my-0 flex max-w-[58rem] flex-col items-center justify-between gap-4 py-0">
               <FaqPage />
             </div>
-            <div className="container my-0 sm:my-0 lg:my-0 md:my-0 flex max-w-[58rem] flex-col items-center justify-between gap-4 py-0">
+            {/* <div className="container my-0 sm:my-0 lg:my-0 md:my-0 flex max-w-[58rem] flex-col items-center justify-between gap-4 py-0">
               <SiteFooter className="border-t" />
-            </div>
+            </div> */}
             {/* <SiteFooter /> */}
           </div>
         </div>
