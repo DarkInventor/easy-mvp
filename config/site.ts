@@ -1,9 +1,9 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Next.js",
+  name: "Easy-UI",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "Beautifully designed templates built with Magic UI and Tailwind CSS.",
   mainNav: [
     {
       title: "Features",
@@ -23,8 +23,8 @@ export const siteConfig = {
     }
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
+    twitter: "https://twitter.com/kathanmehtaa",
+    github: "https://github.com/DarkInventor",
     docs: "https://ui.shadcn.com",
   },
 }
