@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [
-      { url: 'https://github.com/DarkInventor/ez-template1/blob/main/public/dashboard-dark.png', width: 800, height: 600, alt: siteConfig.name },
+      { url: '/og.png', width: 800, height: 600, alt: siteConfig.name },
     ],
     siteName: siteConfig.name,
   },
