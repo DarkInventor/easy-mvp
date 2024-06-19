@@ -44,7 +44,7 @@ export default function IndexPage() {
   ]
   return (
     // <div className="container relative">
-    <section id="hero" autoFocus>
+    <section id="hero" >
       <div className="relative h-full overflow-hidden py-5 md:py-2">
         <div className="z-10 flex flex-col">
           <div className="mt-10 grid grid-cols-1 md:mt-20">
@@ -231,7 +231,7 @@ export default function IndexPage() {
                   </p>
                 
                 </div>
-          <div className="container my-0 sm:my-0 lg:my-20 flex max-w-[58rem] flex-col items-center justify-between gap-4 py-10 md:h-24 md:flex-row md:py-0">
+          <div className="container my-0 sm:my-0 lg:my-20 flex max-w-[58rem] flex-col items-center justify-between gap-4 py-0 sm:py-0 lg:py-0 md:h-24 md:flex-row md:py-0">
                 {/* <Page /> */}<FaqPage />
                 
                   </div>
