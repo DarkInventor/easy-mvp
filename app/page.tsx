@@ -4,6 +4,8 @@ import Image from "next/image"
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { ChevronRight } from "lucide-react"
+// import MarqueeDemo from "./testimonials/page"
+import { Footer } from "react-day-picker"
 
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
@@ -23,16 +25,15 @@ import {
   PageHeaderDescription,
   PageHeaderHeading,
 } from "@/components/page-header"
+import { SiteFooter } from "@/components/site-footer"
 
+import FaqPage from "./faqs/page"
 import Features from "./features/page"
 import OrbitingCirclesDemo from "./integrations/page"
-// import MarqueeDemo from "./testimonials/page"
-import { Footer } from "react-day-picker"
 // import  { SiteFooter }  from "../components/site-footer"
 import PricingPage from "./pricing/page"
-import FaqPage from "./faqs/page"
 import MarqueeDemo from "./testimonials/page"
-import { SiteFooter } from "@/components/site-footer"
+
 // Corrected the path for FAQPage import
 
 export default function IndexPage() {
@@ -44,7 +45,7 @@ export default function IndexPage() {
   ]
   return (
     // <div className="container relative">
-    <section id="hero" >
+    <section id="hero">
       <div className="relative h-full overflow-hidden py-5 md:py-2">
         <div className="z-10 flex flex-col">
           <div className="mt-10 grid grid-cols-1 md:mt-20">
@@ -71,11 +72,11 @@ export default function IndexPage() {
                 <span className="font-bold text-black dark:text-white">
                   Tailwind CSS
                 </span>
-                , {" "}
+                ,{" "}
                 <span className="font-bold text-black dark:text-white">
                   Magic-UI
                 </span>
-                ,{" "}and{" "}
+                , and{" "}
                 <span className="font-bold text-black dark:text-white">
                   Framer Motion
                 </span>
@@ -119,7 +120,7 @@ export default function IndexPage() {
 
               <div className="flex max-w-xl flex-row items-center justify-between text-balance p-5 text-left text-base tracking-tight text-black md:text-center md:text-base dark:font-medium dark:text-white">
                 <span className="mr-2 font-300 text-gray-600 dark:text-gray-400 text-md">
-                Trusted by 
+                  Trusted by
                 </span>
                 <AvatarCircles numPeople={99} avatarUrls={avatarUrls} />
               </div>
@@ -216,37 +217,31 @@ export default function IndexPage() {
                   <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7 pb-10">
                     Hear what our satisfied customers have to say about us.
                   </p> */}
-                  <MarqueeDemo />
-                {/* </div> */}
-                <PricingPage />
-               
-          
+            <MarqueeDemo />
+            {/* </div> */}
+            <PricingPage />
 
-          <div className="pt-8 sm:pt-8 lg:pt-5 mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-                  <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-3xl font-bold">
-                    Frequently asked questions
-                  </h2>
-                  <p className="text-muted-foreground max-w-[85%] pb-1 sm:pb-1 lg:pb-10 leading-normal sm:text-lg sm:leading-7">
-                    Get detailed answers to common inquiries.
-                  </p>
-                
-                </div>
-          <div className="container my-0 sm:my-0 lg:my-20 flex max-w-[58rem] flex-col items-center justify-between gap-4 py-0 sm:py-0 lg:py-0 md:h-24 md:flex-row md:py-0">
-                {/* <Page /> */}<FaqPage />
-                
-                  </div>
-                  {/* <SiteFooter /> */}
-                  
+            <div className="pt-8 sm:pt-8 lg:pt-5 mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
+              <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-3xl font-bold">
+                Frequently asked questions
+              </h2>
+              <p className="text-muted-foreground max-w-[85%] pb-1 sm:pb-1 lg:pb-10 leading-normal sm:text-lg sm:leading-7">
+                Get detailed answers to common inquiries.
+              </p>
+            </div>
+            <div className="container my-0 sm:my-0 lg:my-10 md:my-4 flex max-w-[58rem] flex-col items-center justify-between gap-4 py-0 md:h-24 md:flex-row">
+              {/* <Page /> */}
+              <FaqPage />
+            </div>
+            {/* <SiteFooter /> */}
+          </div>
         </div>
-       
+
+        {/* <div className="container flex flex-col items-center justify-between gap-4  md:h-24 md:flex-row md:py-0"> */}
+        {/* <hr /> */}
+
+        {/* </div> */}
       </div>
-      
-     
-      {/* <div className="container flex flex-col items-center justify-between gap-4  md:h-24 md:flex-row md:py-0"> */}
-      {/* <hr /> */}
-   
-      {/* </div> */}
-      </div>  
     </section>
   )
 }
