@@ -44,7 +44,7 @@ export default function IndexPage() {
     "https://avatars.githubusercontent.com/u/59228569",
   ]
   return (
-    <div className="  relative">
+    <div className=" relative">
     <section id="hero">
       <div className="relative min-h-screen overflow-hidden py-0 sm:py-0 md:py-0 lg:py-5">
         <div className="z-10 flex flex-col">
@@ -229,9 +229,11 @@ export default function IndexPage() {
                 Get detailed answers to common inquiries.
               </p>
             </div>
-            <div className="container my-0 sm:my-0 lg:my-20 md:my-0 flex max-w-[58rem] flex-col items-center justify-between gap-4 py-0 md:h-24 md:flex-row">
-              {/* <Page /> */}
+            <div className="container my-0 sm:my-0 lg:my-10 md:my-0 flex max-w-[58rem] flex-col items-center justify-between gap-4 py-0">
               <FaqPage />
+            </div>
+            <div className="container my-0 sm:my-0 lg:my-0 md:my-0 flex max-w-[58rem] flex-col items-center justify-between gap-4 py-0">
+              <SiteFooter className="border-t" />
             </div>
             {/* <SiteFooter /> */}
           </div>

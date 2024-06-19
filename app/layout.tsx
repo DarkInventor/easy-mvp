@@ -81,7 +81,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <div className="container flex-1">{children}
              
               </div>
-              <SiteFooter className="border-t" />
+              {/* <SiteFooter className="border-t" /> */}
             </div>
             <TailwindIndicator />
           </ThemeProvider>
