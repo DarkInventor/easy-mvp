@@ -72,18 +72,18 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <body
           className={cn(
             "min-h-screen bg-background font-sans antialiased",
-            fontSans.variable
+            fontSans.variable,
           )}
         >
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <div className="absolute flex min-h-screen flex-col">
+            {/* <div className="absolute flex min-h-screen flex-col"> */}
               <SiteHeader />
               {/* <div className="container flex-1"> */}
                 {children}
              
               {/* </div> */}
-              {/* <SiteFooter className="border-t py-2" /> */}
-            </div>
+              <SiteFooter className="border-t" />
+            {/* </div> */}
             <TailwindIndicator />
           </ThemeProvider>
         </body>
