@@ -118,8 +118,8 @@ export default function IndexPage() {
               </div>
 
               <div className="flex max-w-xl flex-row items-center justify-between text-balance p-5 text-left text-base tracking-tight text-black md:text-center md:text-base dark:font-medium dark:text-white">
-                <span className="mr-2 font-normal text-gray-600 dark:text-gray-400">
-                  Trusted by
+                <span className="mr-2 font-300 text-gray-600 dark:text-gray-400 text-md">
+                Trusted by 
                 </span>
                 <AvatarCircles numPeople={99} avatarUrls={avatarUrls} />
               </div>
