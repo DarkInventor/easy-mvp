@@ -1,5 +1,6 @@
 import "@/styles/globals.css"
 import { Metadata } from "next"
+import Head from "next/head"
 
 import { siteConfig } from "@/config/site"
 import { fontSans } from "@/lib/fonts"
@@ -33,7 +34,16 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <>
       <html lang="en" suppressHydrationWarning>
-        <head />
+        <Head>
+          <title>${siteConfig.name}</title>
+          <meta property="og:url" content="https://ez-template1.vercel.app/" />
+          <meta property="og:image" content="/dashboard-dark.png" />
+          <meta
+            property="twitter:url"
+            content="https://ez-template1.vercel.app/"
+          />
+          <meta property="twitter:image" content="/dashboard-dark.png" />
+        </Head>
         <body
           className={cn(
             "min-h-screen bg-background font-sans antialiased",
