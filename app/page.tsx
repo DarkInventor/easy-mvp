@@ -34,6 +34,7 @@ import OrbitingCirclesDemo from "./integrations/page"
 import PricingPage from "./pricing/page"
 import MarqueeDemo from "./testimonials/page"
 import { SiteHeader } from "@/components/site-header"
+import CTASection from "@/components/cta-section"
 
 // Corrected the path for FAQPage import
 
@@ -235,7 +236,10 @@ export default function IndexPage() {
             <div className="container my-10 sm:my-0 lg:my-0 md:my-0 flex max-w-[58rem] flex-col items-center justify-between gap-4 py-0">
               <FaqPage />
               {/* <SiteFooter /> */}
+              
             </div>
+            <CTASection />
+            
             
             {/* <div className="container my-0 sm:my-0 lg:my-0 md:my-0 flex max-w-[58rem] flex-col items-center justify-between gap-4 py-0"> */}
               {/* <SiteFooter className="border-t" /> */}
