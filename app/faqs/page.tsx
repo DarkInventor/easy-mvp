@@ -1,4 +1,5 @@
 "use client";
+import { SiteFooter } from "@/components/site-footer";
 import {
     Accordion,
     AccordionContent,
@@ -8,7 +9,7 @@ import {
   
   export default function FaqPage() {
     return (
-      <Accordion type="single" collapsible className="w-full">
+      <><Accordion type="single" collapsible className="w-full">
         <AccordionItem value="item-1">
           <AccordionTrigger>Is it accessible?</AccordionTrigger>
           <AccordionContent>
@@ -28,7 +29,7 @@ import {
             Yes. It&apos;s animated by default, but you can disable it if you prefer.
           </AccordionContent>
         </AccordionItem>
-      </Accordion>
+      </Accordion><SiteFooter className="border-t" /></>
     )
   }
   
