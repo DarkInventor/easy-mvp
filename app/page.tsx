@@ -44,7 +44,7 @@ export default function IndexPage() {
   ]
   return (
     // <div className="container relative">
-    <section id="hero">
+    <section id="hero" autoFocus>
       <div className="relative h-full overflow-hidden py-5 md:py-2">
         <div className="z-10 flex flex-col">
           <div className="mt-10 grid grid-cols-1 md:mt-20">
