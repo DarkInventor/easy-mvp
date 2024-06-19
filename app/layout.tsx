@@ -10,6 +10,7 @@ import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { ThemeProvider } from "@/components/theme-provider"
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://ez-template1.vercel.app/'), // Change this line
   title: {
     default: siteConfig.name,
     template: `%s - ${siteConfig.name}`,
@@ -24,7 +25,30 @@ export const metadata: Metadata = {
     shortcut: "/favicon-16x16.png",
     apple: "/apple-touch-icon.png",
   },
+  openGraph: {
+    url: 'https://ez-template1.vercel.app/',
+    title: siteConfig.name,
+    description: siteConfig.description,
+    images: [
+      { url: '/dashboard-dark.jpg', width: 800, height: 600, alt: siteConfig.name },
+    ],
+    siteName: siteConfig.name,
+  },
+  twitter: {
+    card: 'summary_large_image',
+  },
+  // The 'additionalMetaTags' property does not exist in the 'Metadata' type, thus it has been removed to resolve the error.
 }
+  // },
+  // additionalLinkTags: [
+  //   { rel: 'manifest', href: '/site.webmanifest' },
+  // ],
+  // additionalMetaTags: [
+  //   { name: 'twitter:card', content: 'summary_large_image' },
+  //   { property: 'og:image', content: '/path-to-your-image.jpg' },
+  //   // Add more custom tags as needed
+  // ],
+
 
 interface RootLayoutProps {
   children: React.ReactNode
