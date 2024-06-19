@@ -235,7 +235,7 @@ export default function IndexPage() {
                 {/* <Page /> */}<FaqPage />
                 
                   </div>
-                  <SiteFooter />
+                  {/* <SiteFooter /> */}
                   
         </div>
        
