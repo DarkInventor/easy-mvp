@@ -44,7 +44,7 @@ export default function IndexPage() {
     "https://avatars.githubusercontent.com/u/59228569",
   ]
   return (
-    <div className=" relative">
+    <div className="container relative">
     <section id="hero">
       <div className="relative min-h-screen overflow-hidden py-0 sm:py-0 md:py-0 lg:py-5">
         <div className="z-10 flex flex-col">
