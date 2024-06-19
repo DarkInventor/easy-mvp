@@ -229,7 +229,7 @@ export default function IndexPage() {
                 Get detailed answers to common inquiries.
               </p>
             </div>
-            <div className="container my-0 sm:my-0 lg:my-10 md:my-4 flex max-w-[58rem] flex-col items-center justify-between gap-4 py-0 md:h-24 md:flex-row">
+            <div className="container my-0 sm:my-0 lg:my-20 md:my-4 flex max-w-[58rem] flex-col items-center justify-between gap-4 py-0 md:h-24 md:flex-row">
               {/* <Page /> */}
               <FaqPage />
             </div>
