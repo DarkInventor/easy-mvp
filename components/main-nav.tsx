@@ -15,12 +15,12 @@ export function MainNav() {
   return (
     <div className="mr-4 md:flex">
       <Link href="/" className="mr-6 flex items-center space-x-2">
-        <Icons.logo className="h-6 w-6" />
-        <span className="hidden font-bold sm:inline-block">
+        <img src="/logo.svg" className="h-7 w-7" alt="Logo" />
+        <span className="hidden font-bold sm:inline-block p-2">
           {siteConfig.name}
         </span>
       </Link>
-      <nav className="hidden lg:flex lg:items-center lg:gap-6 text-sm">
+      {/* <nav className="hidden lg:flex lg:items-center lg:gap-6 text-sm">
         <Link
           href="/docs"
           className={cn(
@@ -82,7 +82,7 @@ export function MainNav() {
         >
           GitHub
         </Link>
-      </nav>
+      </nav> */}
     </div>
   )
 }

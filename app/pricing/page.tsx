@@ -31,18 +31,18 @@ const PricingHeader = ({ title, subtitle }: { title: string; subtitle: string })
   </section>
 )
 
-const PricingSwitch = ({ onSwitch }: PricingSwitchProps) => (
-  <Tabs defaultValue="0" className="w-40 mx-auto" onValueChange={onSwitch}>
-    <TabsList className="py-6 px-2">
-      <TabsTrigger value="0" className="text-base">
-        Monthly
-      </TabsTrigger>
-      <TabsTrigger value="1" className="text-base">
-        Yearly
-      </TabsTrigger>
-    </TabsList>
-  </Tabs>
-)
+// const PricingSwitch = ({ onSwitch }: PricingSwitchProps) => (
+//   <Tabs defaultValue="0" className="w-40 mx-auto" onValueChange={onSwitch}>
+//     <TabsList className="py-6 px-2">
+//       <TabsTrigger value="0" className="text-base">
+//         Monthly
+//       </TabsTrigger>
+//       <TabsTrigger value="1" className="text-base">
+//         Yearly
+//       </TabsTrigger>
+//     </TabsList>
+//   </Tabs>
+// )
 
 const PricingCard = ({ isYearly, title, monthlyPrice, yearlyPrice, description, features, actionLabel, popular, exclusive }: PricingCardProps) => (
   <Card
@@ -66,7 +66,7 @@ const PricingCard = ({ isYearly, title, monthlyPrice, yearlyPrice, description, 
           <CardTitle className="text-zinc-700 dark:text-zinc-300 text-lg">{title}</CardTitle>
         )}
         <div className="flex gap-0.5">
-          <h3 className="text-3xl font-bold">{yearlyPrice && isYearly ? "$" + yearlyPrice : monthlyPrice ? "$" + monthlyPrice : "Custom"}</h3>
+          <h3 className="text-3xl font-bold">{yearlyPrice && isYearly ? "$" + yearlyPrice : monthlyPrice ? "$" + monthlyPrice : "$1887"}</h3>
           <span className="flex flex-col justify-end text-sm mb-1">{yearlyPrice && isYearly ? "/year" : monthlyPrice ? "/month" : null}</span>
         </div>
         <CardDescription className="pt-1.5 h-12">{description}</CardDescription>
@@ -98,36 +98,20 @@ export default function PricingPage() {
   const togglePricingPeriod = (value: string) => setIsYearly(parseInt(value) === 1)
 
   const plans = [
+
     {
-      title: "Basic",
-      monthlyPrice: 10,
-      yearlyPrice: 100,
-      description: "Essential features you need to get started",
-      features: ["Example Feature Number 1", "Example Feature Number 2", "Example Feature Number 3"],
-      actionLabel: "Get Started",
-    },
-    {
-      title: "Pro",
-      monthlyPrice: 25,
-      yearlyPrice: 250,
-      description: "Perfect for owners of small & medium businessess",
-      features: ["Example Feature Number 1", "Example Feature Number 2", "Example Feature Number 3"],
-      actionLabel: "Get Started",
-      popular: true,
-    },
-    {
-      title: "Enterprise",
-      price: "Custom",
-      description: "Dedicated support and infrastructure to fit your needs",
-      features: ["Example Feature Number 1", "Example Feature Number 2", "Example Feature Number 3", "Super Exclusive Feature"],
-      actionLabel: "Contact Sales",
+      title: "Easy MVP Special",
+      price: "$1887",
+      description: "Product Development",
+      features: ["Senior Developer", "15-20 Days Service", "Private Discord Channel", "No Meetings"],
+      actionLabel: "Order Now",
       exclusive: true,
     },
   ]
   return (
     <div className="pt-28 pb-2 sm:pb-2 lg:pb-20">
       <PricingHeader title="Pricing Plans" subtitle="Choose the plan that's right for you" />
-      <PricingSwitch onSwitch={togglePricingPeriod} />
+      {/* <PricingSwitch onSwitch={togglePricingPeriod} /> */}
       <section className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-8 mt-8">
         {plans.map((plan) => {
           return <PricingCard key={plan.title} {...plan} isYearly={isYearly} />

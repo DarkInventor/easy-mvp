@@ -13,7 +13,7 @@ import { cn } from "@/lib/utils";
 // import AnimatedBeamMultipleOutputDemo from "@/components/example/animated-beam-multiple-outputs";
 import { BentoCard, BentoGrid } from "@/components/magicui/bento-grid";
 import Marquee from "@/components/magicui/marquee";
-import { CalendarIcon, FileTextIcon, InputIcon } from "@radix-ui/react-icons";
+import { CalendarIcon, FileTextIcon, InputIcon, TimerIcon } from "@radix-ui/react-icons";
 import { Share2Icon } from "lucide-react";
 import { AnimatedBeamMultipleOutputDemo } from "@/components/magicui/animated-beam-multiple-outputs";
 // import { AnimatedBeamMultipleOutputDemo } from "@/components/magicui/animated-beam-multiple-outputs";
@@ -122,9 +122,9 @@ const Notification = ({ name, description, icon, color, time }: Item) => {
 
 const features = [
   {
-    Icon: FileTextIcon,
-    name: "Save your files",
-    description: "We automatically save your files as you type.",
+    Icon: TimerIcon,
+    name: "Save your time",
+    description: "We believe in delivering fast.",
     href: "/",
     cta: "Learn more",
     className: "col-span-3 lg:col-span-1",
@@ -158,8 +158,8 @@ const features = [
   },
   {
     Icon: InputIcon,
-    name: "Full text search",
-    description: "Search through all your files in one place.",
+    name: "Research Driven",
+    description: "We thoroughly search all resources to deliver a top-quality MVP.",
     href: "/",
     cta: "Learn more",
     className: "col-span-3 lg:col-span-2",
@@ -182,8 +182,8 @@ const features = [
   },
   {
     Icon: Share2Icon,
-    name: "Integrations",
-    description: "Supports 100+ integrations and counting.",
+    name: "Development",
+    description: "We build AI Apps, Software platforms, Mobile and Web apps.",
     href: "/",
     cta: "Learn more",
     className: "col-span-3 lg:col-span-2",
@@ -193,8 +193,8 @@ const features = [
   },
   {
     Icon: CalendarIcon,
-    name: "Calendar",
-    description: "Use the calendar to filter your files by date.",
+    name: "Post Build",
+    description: "We are there for you if you need us once the product is built.",
     className: "col-span-3 lg:col-span-1",
     href: "/",
     cta: "Learn more",

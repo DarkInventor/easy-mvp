@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Easy-UI",
+  name: "Easy MVP",
   description:
     "Beautifully designed templates built with Magic UI and Tailwind CSS.",
   mainNav: [

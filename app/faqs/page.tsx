@@ -8,24 +8,23 @@ import {
   
   export default function FaqPage() {
     return (
-      <Accordion type="single" collapsible className="w-full">
+      <Accordion type="single" collapsible className="mb-2 w-full">
         <AccordionItem value="item-1">
-          <AccordionTrigger>Is it accessible?</AccordionTrigger>
+          <AccordionTrigger>Can I get a refund?</AccordionTrigger>
           <AccordionContent>
-            Yes. It adheres to the WAI-ARIA design pattern.
+            No, once the order is placed you won&apos;t be given any refunds. 
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
-          <AccordionTrigger>Is it styled?</AccordionTrigger>
+          <AccordionTrigger>How many days we have to wait after placing order?</AccordionTrigger>
           <AccordionContent>
-            Yes. It comes with default styles that matches the other
-            components&apos; aesthetic.
+            Once you place the order we immediately start working on building MVP. We work max 15-20 days for you. If MVP is delivered early we end the work.    
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
-          <AccordionTrigger>Is it animated?</AccordionTrigger>
+          <AccordionTrigger>How to communicate after placing the order?</AccordionTrigger>
           <AccordionContent>
-            Yes. It&apos;s animated by default, but you can disable it if you prefer.
+            After getting your order, we create a discord channel to communitcate and provide the updates.
           </AccordionContent>
         </AccordionItem>
       </Accordion>
