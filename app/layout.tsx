@@ -82,7 +82,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 {children}
              
               {/* </div> */}
-              <SiteFooter className="border-t" />
+              <SiteFooter className="border-t p-4 lg:p-0 md:p-0" />
             {/* </div> */}
             <TailwindIndicator />
           </ThemeProvider>

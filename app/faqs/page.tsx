@@ -8,9 +8,9 @@ import {
   
   export default function FaqPage() {
     return (
-      <Accordion type="single" collapsible className="mb-2 w-full">
+      <Accordion type="single" collapsible className="mb-0 lg:mb-20 sm:mb-2 md:mb-2 w-full">
         <AccordionItem value="item-1">
-          <AccordionTrigger>Can I get a refund?</AccordionTrigger>
+          <AccordionTrigger>Can I request a refund after I&apos;ve placed my order, and what&apos;s the process for doing so?</AccordionTrigger>
           <AccordionContent>
             No, once the order is placed you won&apos;t be given any refunds. 
           </AccordionContent>
