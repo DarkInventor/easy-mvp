@@ -34,7 +34,7 @@ export function SiteHeader() {
 
             <ThemeToggle />
             <Link
-              href="/components"
+              href="https://tally.so/r/mZVbby"
               // eslint-disable-next-line tailwindcss/no-contradicting-classname
               className={cn(
                 buttonVariants({
