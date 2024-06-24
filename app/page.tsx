@@ -207,7 +207,7 @@ export default function IndexPage() {
                   <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7 pb-10">
                     Hear what our satisfied customers have to say about us.
                   </p> */}
-            <MarqueeDemo />
+            {/* <MarqueeDemo /> */}
             {/* </div> */}
             <PricingPage />
 
