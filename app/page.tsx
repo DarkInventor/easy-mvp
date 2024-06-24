@@ -35,7 +35,7 @@ import PricingPage from "./pricing/page"
 import MarqueeDemo from "./testimonials/page"
 import { SiteHeader } from "@/components/site-header"
 import CTASection from "@/components/cta-section"
-import { AnimatedListt } from "./animated-list/page"
+import AnimatedListDemo from "./animatedlistt/page"
 
 // Corrected the path for FAQPage import
 
@@ -129,7 +129,7 @@ export default function IndexPage() {
                 </p>
               </div>
               {/* <div className="relative hidden rounded-xl lg:block " > */}
-                <AnimatedListt />
+                <AnimatedListDemo />
               
               {/* </div> */}
 
