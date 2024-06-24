@@ -121,7 +121,7 @@ export default function IndexPage() {
               </div>
 
               <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 pt-20 text-center">
-                <h2 className="font-heading font-3xl leading-[1.1] sm:text-3xl md:text-3xl font-bold">
+                <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-3xl font-bold">
                   Our Tech Stack
                 </h2>
                 <p className="text-muted-foreground max-w-[85%] leading-normal sm:text-lg sm:leading-7">
@@ -134,9 +134,12 @@ export default function IndexPage() {
               {/* </div> */}
 
               <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 pt-20 text-center">
-                <h2 className="font-heading font-3xl leading-[1.1] sm:text-3xl md:text-3xl font-bold">
+                <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-3xl font-bold">
                   Why choose us?
-                </h2>                
+                </h2>    
+                <p className="text-muted-foreground max-w-[85%] leading-normal sm:text-lg sm:leading-7">
+                  We build AI Apps, Software Platforms, Mobile and Web Apps. 
+                </p>            
               </div>
 
               <div className="container relative mx-auto mt-32 w-full max-w-[1000px]">
